@@ -26,7 +26,7 @@ export default function Problem1() {
         state, event listeners and update props to make that happen.
       </div>
       <div className="shape-controls">
-        <div className="blue-ciricle" onClick={handleBlue}>
+        <div onClick={handleBlue}>
           <Shape color="blue" type="circle" small />
         </div>
         <div onClick={handlePurple}>
