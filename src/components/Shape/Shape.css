@@ -1,0 +1,40 @@
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.green {
+  background-color: green;
+}
+
+.shape {
+  height: 100px;
+  width: 100px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border: 3px solid white;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.shape.small {
+  height: 50px;
+  width: 50px;
+}

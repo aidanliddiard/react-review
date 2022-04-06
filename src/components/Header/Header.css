@@ -1,0 +1,11 @@
+.links {
+  margin: 10px;
+}
+.links a {
+  margin: 10px;
+}
+
+.links a.active {
+  text-decoration: none;
+  color: var(--color-green);
+}

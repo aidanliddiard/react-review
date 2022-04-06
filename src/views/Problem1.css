@@ -1,0 +1,10 @@
+.shape-controls {
+  display: flex;
+  padding: 20px;
+  border: 3px solid green;
+  border-radius: 5px;
+}
+
+.selected-shape {
+  margin: 20px;
+}
