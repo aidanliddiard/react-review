@@ -10,6 +10,13 @@ export default function Problem1() {
     await setColor('blue');
   };
 
+  const handlePurple = async () => {
+    await setColor('purple');
+  };
+  const handleGreen = async () => {
+    await setColor('green');
+  };
+
   return (
     <div className="problem-container">
       <h2>Problem 1: Props and State</h2>
@@ -22,8 +29,12 @@ export default function Problem1() {
         <div className="blue-ciricle" onClick={handleBlue}>
           <Shape color="blue" type="circle" small />
         </div>
-        <Shape color="purple" type="circle" small />
-        <Shape color="green" type="circle" small />
+        <div onClick={handlePurple}>
+          <Shape color="purple" type="circle" small />
+        </div>
+        <div onClick={handleGreen}>
+          <Shape color="green" type="circle" small />
+        </div>
       </div>
       <div className="selected-shape">
         <Shape color={color} type="circle"></Shape>
